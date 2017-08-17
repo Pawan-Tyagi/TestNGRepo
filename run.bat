@@ -1,0 +1,1 @@
+java -cp C:\Users\Nigma\Documents\Sample-Project\bin;C:\Users\Nigma\Documents\Sample-Project\lib\* org.testng.TestNG testng.xml
