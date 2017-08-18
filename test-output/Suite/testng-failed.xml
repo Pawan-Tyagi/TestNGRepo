@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test123(failed)">
+  <test name="Account(failed)">
     <classes>
       <class name="com.testcases.CreateAccount">
         <methods>
@@ -10,5 +10,15 @@
         </methods>
       </class> <!-- com.testcases.CreateAccount -->
     </classes>
-  </test> <!-- Test123(failed) -->
+  </test> <!-- Account(failed) -->
+  <test name="Opportunity(failed)">
+    <classes>
+      <class name="com.testcases.CreateOpportunity">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testng"/>
+        </methods>
+      </class> <!-- com.testcases.CreateOpportunity -->
+    </classes>
+  </test> <!-- Opportunity(failed) -->
 </suite> <!-- Failed suite [Suite] -->

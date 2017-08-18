@@ -57,7 +57,7 @@ public class LoginTest {
 				.getText();
 		//verifying the result
 		assertEquals(str, "test googledcqa");
-		ITestResult result = Reporter.getCurrentTestResult();
+		//ITestResult result = Reporter.getCurrentTestResult();
 	}
 
 	
