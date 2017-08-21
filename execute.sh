@@ -13,4 +13,4 @@ echo "--------------------------------------------------"
 echo "Fired the core command"
 echo "--------------------------------------------------"
 
-java -cp ".:./lib/*:./dist1/*" org.testng.TestNG testng.xml
+java -cp ".:./lib/*:./DIST/*" org.testng.TestNG testng.xml
