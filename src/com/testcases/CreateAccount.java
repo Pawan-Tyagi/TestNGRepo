@@ -29,7 +29,7 @@ public class CreateAccount {
 		// configuring the sauce lab capabilities
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setCapability("platform", "Windows 10");
-		caps.setCapability("name", "Creating Account and pushing it to DSM");
+		caps.setCapability("name", "Login, Creating Account and pushing it to DSM");
 		caps.setCapability("version", "59.0");
 
 		// creating the remote driver
@@ -60,7 +60,7 @@ public class CreateAccount {
 				By.xpath("//*[@id='hotlist']/table/tbody/tr/td[2]/input"))
 				.click();
 		driver.findElement(By.xpath("//*[@id='acc2']")).sendKeys(
-				"Automated Account 104");
+				"Automated Account 105");
 		driver.findElement(By.xpath("//*[@id='topButtonRow']/input[1]"))
 				.click();
 		driver.findElement(By.xpath("//*[@id='topButtonRow']/input[6]"))
@@ -111,7 +111,7 @@ public class CreateAccount {
 						By.xpath("//*[@id='gwt-debug-companyDetails-header']/table/tbody/tr/td[2]/div[2]/span/strong"))
 				.getText();
 		// verifying the result
-		assertEquals(str, "Automated Account 104");
+		assertEquals(str, "Automated Account 105");
 		// ITestResult result = Reporter.getCurrentTestResult();
 
 	}
